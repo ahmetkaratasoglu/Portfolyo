@@ -1,0 +1,173 @@
+*{
+    box-sizing: border-box;
+}
+body,html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    
+}
+.container-fluid{
+    width: 70%;
+    display: flex;
+    margin: auto;
+    
+    
+    
+    
+}
+.content{
+    display: block!important;
+    margin-left: 50px;
+    
+}
+.container1{
+    display: flex;
+    border: 0px solid black;
+    background-color: white;
+    
+}
+.container2{
+    width: 55%;
+    border: 0px solid red;
+    
+    
+}
+
+.baslik1 h2{
+    margin-left: 70px;
+}
+.baslik1 p{
+    margin-left: 65px;
+}
+.baslik{
+    text-align: center;
+    margin: auto;
+    display: block;
+    
+}   
+.foto{
+    margin-left: 75px;
+    border: 0px solid;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-image: url(alskdaskldj.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cizgi{
+    
+    width: 400px;
+    height: 3px;
+    margin-right: 8px;
+    background-color:  rgb(16, 102, 231);
+}
+.bilgiler{
+    margin-left: 25px ;
+}
+i{
+    margin-top: 20px;
+    font-size: 25px;
+    color: rgb(16, 102, 231);
+}
+span{
+    margin-left: 20px;
+}
+.daire{
+    display: flex;
+   
+}
+.ing span{
+    margin-left: 0px!important;
+    margin-right: 250px;
+}
+.ing1{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid  rgb(16, 102, 231);
+    background-color:  rgb(16, 102, 231);
+    
+}
+.ing2{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid darkgray;
+    background-color: darkgray;
+}
+
+.ozel{
+    display: inline-block;
+    margin-top: 5px;
+    width: 15px;
+    height: 15px;
+    border: 0px solid turquoise;
+    background-color:  rgb(16, 102, 231);
+    
+}
+.ozellik hr{
+    width: 0;
+    height: 0;
+}
+.cizgi2{
+    display: block;
+    width: 900px!important;
+}
+.uni{
+    font-weight: bold;
+    color: rgb(6, 121, 175);
+}
+h2{
+    color:  rgb(16, 102, 231);
+}
+.full{
+    font-weight: bold;
+}
+.ozel1{
+    display: inline-block;
+    margin-top: 5px;
+    width: 15px;
+    height: 15px;
+    border: 0px solid turquoise;
+    background-color:  rgb(16, 102, 231);
+}
+.hidden{
+    width: 0px;
+    height: 0px;
+}
+li{
+    
+    font-weight: bold;
+    
+}
+.geridon{
+    width: 150px;
+    height: 50px;
+    border: 0px;
+    border-radius:150px;
+    margin-left: 400px;
+    margin-top: 100px;
+    color: white;
+    background-color:  rgb(22, 204, 236);
+}
+.geridon a{
+    text-decoration: none;
+    color: white;
+    font-size:24px;
+    font-weight: bold;
+    
+    
+}
+.geridon :hover{
+    color:white;
+    font-size: 34px;
+}
+.ozellik{
+    margin-bottom: 100px;
+}

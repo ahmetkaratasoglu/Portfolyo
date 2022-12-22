@@ -1,0 +1,266 @@
+*{
+    box-sizing: border-box;
+}
+body,html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(255, 255, 255) ;
+    font-family: 'Audiowide', cursive;
+    color:black;
+    
+    
+}
+
+.container-fluid{
+    width: 100%;
+   
+}
+.container{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    
+}
+.isim{
+    margin-top: 50px;
+    margin-left: 300px;
+    
+}
+
+.pic{
+    width: 450px;
+    height: 450px;
+    border: 0px solid black;
+    border-radius: 50%;
+    margin-top: 100px;
+    margin-left: 100px;
+    background-image: url(alskdaskldj.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+.icerik{
+    text-align: center;    
+    
+
+}
+.kapsayicidaire{
+    display: flex;
+    
+  
+}
+.daire1{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 0px solid black;
+    margin-top: 20px;
+    justify-content: center;
+    background-color: rgb(211, 53, 53);
+    border-radius: 50%;
+    background: #ffffff;
+    box-shadow:  48px 48px 81px #b8b8b8,
+             -48px -48px 81px #ffffff;
+             transition: all 1s ease;
+    display: flex;
+    align-items:   center  ;
+    margin-right: 20px;
+    margin-left: 20px
+}
+.merhaba1{
+    display: flex;
+    position: relative;
+    margin-left: 20px;
+    font-size: 40px;
+    
+}
+.merhaba2{
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 30px;
+    font-size: 30px;
+}
+.daire2{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border:0px solid black;
+    margin-top: 20px;
+    justify-content: center;
+    background-color: rgb(15, 166, 236);
+    border-radius: 50%;
+    background: #ffffff;
+    box-shadow:  48px 48px 81px #b8b8b8, -48px -48px 81px #ffffff;
+    transition: all 1s ease;
+    display:flex ;
+    align-items: center;
+    margin-right: 20px;
+}
+.daire3{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border:0px solid black;
+    margin-top: 20px;
+    justify-content: center;
+    background-color: greenyellow;
+    border-radius: 50%;
+    background: #ffffff;
+    box-shadow:  48px 48px 81px #b8b8b8, -48px -48px 81px #ffffff;
+     transition: all 1s ease;
+    display: flex;
+     align-items: center;
+}
+.daire-content{
+    justify-content: center;
+    align-items: center;
+    
+}
+.footer{
+    background-color: white;
+    width: 100%;
+    height: 151px;
+    display: flex;
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    
+    
+    
+    
+}
+.logo{
+    border: 0px solid black;
+    width: 150px;
+    height: 151px;
+    display: flex;
+    justify-content: center;
+    
+}
+.logo1{
+    display: flex;
+    margin-right: 20px;
+   
+}
+.logo1 i{
+   font-size: 35px;
+   margin-top: 70px;
+   
+}
+.logo1 .ara{
+    margin-left: 15px;
+    margin-top: 65px;
+    padding: 0px;
+}
+.logo2{
+    display: flex;
+    margin-right: 20px;
+}
+.logo2 i{
+   font-size: 35px;
+   margin-top: 70px;
+   
+}
+.logo2 .ara{
+    margin-left: 15px;
+    margin-top: 65px;
+    padding: 0px;
+}
+.logo3{
+    display: flex;
+}
+.logo3 i{
+   font-size: 35px;
+   margin-top: 70px;
+   
+}
+
+.logo3 span i{
+    font-size: 20px;
+    display: flex!important;
+    color: black;
+    
+}
+.logo3 span{
+    display: flex!important;
+    margin-left: 20px;
+}
+.logo3 span a i{
+    font-size: 30px;
+    padding-right: 10px;
+}
+.logo3 span a{
+    text-decoration: none;
+    color:gray;
+}
+.kapsayicidaire a{
+    text-decoration: none;
+color: rgb(230, 67, 67);}
+.hakkimda{
+    margin-top: 60px;
+}
+.isim {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+.isim span {
+    margin-top: 20px;
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    animation: wave 3s ease-in-out infinite;
+    animation-delay: calc(.1s*var(--i));
+  }
+
+@keyframes wave {
+    0% {
+      transform: translateY(0px);
+    }
+
+    20% {
+      transform: translateY(-24px);
+    }
+
+    40%,
+    100% {
+      transform: translateY(0);
+    }
+}
+.animation {
+    position: relative;
+    animation: animation 2s ease-out;
+  }
+
+#slide-in {
+    text-align: center;
+    color: rgb(0, 0, 0);
+  }
+
+@keyframes animation {
+    0% {
+      opacity: 0;
+      left: -700px;
+    }
+
+    100% {
+      opacity: 1;
+      left: 0;
+    }
+}
+.daire1:hover,.daire3:hover,.daire2:hover{
+    background-color: rgb(184, 184, 184);
+    cursor: pointer;
+    color: white;
+}
+.logo i:hover{
+    color: rgb(230, 67, 67);
+
+}

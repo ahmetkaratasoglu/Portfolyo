@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body,html{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            font-family: 'Audiowide', cursive;
+            color:black;
+        }
+        .container-fluid{
+            width: 100%;
+            display: flex;
+            
+            
+        }
+        .container{
+            width: 50%;
+            border: 0px solid black;
+            height: 500px;
+            margin: auto;
+            display: flex;
+            height: 100%;
+            
+        }
+
+        .html1{
+            border: 0px solid black;
+            width: 50%;
+            text-align: center; 
+            top: 50%;
+            left: 50%;
+            transform: translate(50%,50%);      
+            
+        }
+        .daire{
+            display: flex;
+            justify-content: center;
+        }
+        .html2{
+            width: 20px;
+            height: 20px;
+            border: 0px solid black;
+            border-radius: 50%;
+            float: left;
+            margin-left: 2px;
+            background-color: greenyellow;
+            animation: daire 2s  infinite;
+            animation-delay: 1s;
+                     
+        }
+        .html3,.html4{
+            width: 20px;
+            height: 20px;
+            border: 0px solid black;
+            border-radius: 50%;
+            float: left;
+            margin-left: 2px;
+            background-color: darkgray;
+        }
+        @keyframes daire{
+            0%{
+                background-color: darkgray;
+            }
+            25%{
+                background-color: darkgray;
+            }
+         
+       
+            100%{
+                background-color: greenyellow;
+            }
+        }
+        .geridon{
+            width: 150px;
+            height: 50px;
+            border: 0px;
+            border-radius:150px;
+            
+            margin-top: 100px;
+            color: white;
+            background-color:  rgb(22, 204, 236);
+}
+.geridon a{
+    text-decoration: none;
+    color: white;
+    font-size:24px;
+    font-weight: bold;
+    
+    
+}
+.geridon :hover{
+    color:white;
+    font-size: 34px;
+}
+
+        
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="container">
+            <div class="html1">
+                <h2>HTML</h2>
+                <div class="daire">
+                    <div class="html2"></div>
+                <div class="html2"></div>
+                <div class="html2"></div>
+                <div class="html2"></div>
+                <div class="html2"></div>
+                <div class="html2"></div>
+                <div class="html3"></div>
+                <div class="html4"></div>
+                </div>
+                <h2>CSS</h2>
+                <div class="daire">
+                    <div class="html2"></div>
+                <div class="html2"></div>
+                <div class="html2"></div>
+                <div class="html2"></div>
+                <div class="html2"></div>
+                <div class="html2"></div>
+                <div class="html3"></div>
+                <div class="html4"></div>
+                </div>
+                <h2>JAVASCRIPT</h2>
+                <div class="daire">
+                    <div class="html2"></div>
+                <div class="html2"></div>
+                <div class="html3"></div>
+                <div class="html3"></div>
+                <div class="html3"></div>
+                <div class="html3"></div>
+                <div class="html3"></div>
+                <div class="html4"></div>
+                </div>
+                <h2>PHYTON</h2>
+                <div class="daire">
+                    <div class="html2"></div>
+                <div class="html3"></div>
+                <div class="html3"></div>
+                <div class="html3"></div>
+                <div class="html3"></div>
+                <div class="html3"></div>
+                <div class="html3"></div>
+                <div class="html4"></div>
+                </div>
+                <button class="geridon"><a href="index.html">Geri</a></button>
+            </div>
+            
+        </div>
+        
+    </div>
+</body>
+</html>
